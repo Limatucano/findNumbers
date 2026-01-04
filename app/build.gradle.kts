@@ -64,6 +64,9 @@ dependencies {
 
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
+    implementation(libs.koinCoroutines)
+    implementation(libs.koinCompose)
+
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
